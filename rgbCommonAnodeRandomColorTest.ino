@@ -1,8 +1,8 @@
 
 /* RGB LED with common Anode connected to permanent 5V pin.
- * All three ground legs are connected through seperate 10K Ohm resistor each 
- * which are then connected to analog pins used as grounds which we have, so to speek, open or close
- * to the various extent by applaying voltage backpressure*/
+ * All three ground legs are connected through separate 10K Ohm resistor each 
+ * which are then connected to analog pins used as grounds which we have, so to speak, open or close
+ * to the various extent by applying voltage back-pressure*/
 int delayTime = 1000;
 int maxIntensity = 0;//because ground is fully open when there is no voltage backpressure
 int minIntensity = 255;//because ground is fully closed when there is maximum voltage backpressure
